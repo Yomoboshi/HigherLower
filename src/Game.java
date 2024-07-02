@@ -104,7 +104,7 @@ public class Game {
 	}
 
 	public void gameEnded() {
-		if (this.nextRound == false) {
+		if (!this.nextRound) {
 			System.out.println("Thanks for playing, your results are:");
 			System.out.println("You've played " + this.guessCounter + " rounds.");
 			System.out.println("You were right " + this.rightGuessesCounter + " times.");
